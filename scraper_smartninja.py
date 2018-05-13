@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import tkinter
 import tkinter.messagebox
 
-url= " https://scrapebook22.appspot.com/"
+url = "https://scrapebook22.appspot.com/"
 response = urlopen(url).read()
 print(response)
 
